@@ -1,0 +1,143 @@
+/* Universal */
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h2, h3, h4, p, li {
+    font-family: Arial;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+header ul {
+    display: flex;
+    gap: 3rem;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5rem 0;
+    width: 60rem;
+    max-width: 90%;
+}
+
+button {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #6DC5EF;
+    border: none;
+    border-radius: 10px;
+}
+
+button h2 {
+    padding: .5rem 2rem;
+    color: white;
+}
+
+/* Schedule */
+
+.banner {
+    height: 60rem;
+    background-image: url(../images/baby-elephant.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.schedule {
+    background-color: #E7F4FD;
+}
+
+#schedule-info {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    gap: 1rem;
+    width: 60rem;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+/* Registry */
+
+.registry {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 8rem 0;
+    gap: 2.5rem;
+    width: 60rem;
+    max-width: 90%;
+}
+
+/* RSVP */
+
+#rsvp {
+    background-color: black;
+}
+
+.rsvp-info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5rem 0;
+    gap: 2.5rem;
+    width: 60rem;
+    max-width: 90%;
+}
+
+#rsvp h1 {
+    color: white;
+}
+
+#rsvp h3 {
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background-color: black;
+    padding-top: 10rem;
+}
+
+footer p {
+    color: white;
+}
